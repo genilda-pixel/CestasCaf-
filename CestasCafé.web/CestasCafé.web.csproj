@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CestasCafé.Infrastructure\CestasCafé.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
