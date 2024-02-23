@@ -21,4 +21,8 @@
     <ProjectReference Include="..\CestasCafé.Infrastructure\CestasCafé.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Cestas\" />
+  </ItemGroup>
+
 </Project>
