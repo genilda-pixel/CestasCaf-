@@ -17,35 +17,35 @@ namespace CestasCafé.Infrastructure.Data
             // base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Cestas>().HasData(
-                new Cesta
+                new Cestas
             {
                 Id = 1,
-                Name = "Royal Villa",
-                Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+                Nome = "Royal Villa",
+                Descrição = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
                 ImageUrl = "https://placehold.co/600x400",
-                Occupancy = 4,
-                Price = 200,
+                Ocasião = 4,
+                Preço = 200,
                
             },
 
-    new Cesta
+    new Cestas
     {
         Id = 2,
-        Name = "Premium Pool Villa",
-        Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+        Nome = "Premium Pool Villa",
+        Descrição = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
         ImageUrl = "https://placehold.co/600x401",
-        Occupancy = 4,
-        Price = 300,
+        Ocasião = 4,
+        Preço = 300,
        
     },
-    new Cesta
+    new Cestas
     {
         Id = 3,
-        Name = "Luxury Pool Villa",
-        Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+        Nome = "Luxury Pool Villa",
+        Descrição = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
         ImageUrl = "https://placehold.co/600x402",
-        Occupancy = 4,
-        Price = 400,
+        Ocasião = 4,
+        Preço = 400,
         
     }
 );
